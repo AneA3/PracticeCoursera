@@ -10,15 +10,17 @@ h1{
     text-align: center;
 }
 
-div{
+div.container{
     background-color: grey;
-    border: 1px solid black;  
+    border: 1px solid black; 
+    padding: 15px; 
     float: left;
-    /**/ 
+    position: relative;
 }
 
 p{
-    clear: right;
+    position: relative;
+    top: 10px;
 }
 
 #chicken{
@@ -38,11 +40,15 @@ p{
 
 .titleSec{
     border: 1px solid black;
-    text-align: right;
+    text-align: center;
     margin: 0;  
     padding:10px;
     width: 20%;
-    float: right;  
+    position: absolute;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 
 
